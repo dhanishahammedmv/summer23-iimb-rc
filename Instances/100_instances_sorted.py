@@ -1,3 +1,5 @@
+"""I am not allowed to share the dataset used here, as my instructor advised me not to. Sorry about that."""
+
 import gurobipy as gp
 from gurobipy import GRB
 
@@ -94,3 +96,4 @@ except gp.GurobiError as e:
     print('Error code ' + str(e.errno) + ': ' + str(e))
 except AttributeError:
     print('Encountered an attribute error.')
+
